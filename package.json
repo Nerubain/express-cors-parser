@@ -1,0 +1,31 @@
+{
+  "name": "express-cors-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "nodemon": "^2.0.1",
+    "prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "express": "^4.17.1"
+  }
+}
